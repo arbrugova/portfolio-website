@@ -6,13 +6,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
+  hoobank,
+  gpt3
 } from "../assets";
 
 export const navLinks = [
@@ -133,7 +131,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: gpt3,
     demo_link: "https://gpt3-web-xp58r.ondigitalocean.app/",
     source_code_link: "https://github.com/arbrugova/gpt-3-website",
   },
@@ -147,15 +145,33 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: hoobank,
+    demo_link: "https://hoobank-arbrugova.netlify.app/",
+    source_code_link: "https://github.com/arbrugova/modern-bank-website",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
     source_code_link: "https://github.com/",
   },
   {
@@ -176,7 +192,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: hoobank,
     source_code_link: "https://github.com/",
   },
   {
@@ -197,7 +213,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: hoobank,
     source_code_link: "https://github.com/",
   },
   {
@@ -218,28 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: hoobank,
     source_code_link: "https://github.com/",
   },
 ];
