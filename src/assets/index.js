@@ -5,6 +5,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import linkedin from "./linkedin.png";
+
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -13,9 +15,8 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 
-import hoobank from './hoobank.png';
-import gpt3 from './gpt-3.png';
-
+import hoobank from "./hoobank.png";
+import gpt3 from "./gpt-3.png";
 
 export {
   backend,
@@ -32,5 +33,6 @@ export {
   reactjs,
   tailwind,
   hoobank,
-  gpt3
+  gpt3,
+  linkedin,
 };
