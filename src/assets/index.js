@@ -17,6 +17,7 @@ import tailwind from "./tech/tailwind.png";
 
 import hoobank from "./hoobank.png";
 import gpt3 from "./gpt-3.png";
+import weather from './weather.png'
 
 export {
   backend,
@@ -35,4 +36,5 @@ export {
   hoobank,
   gpt3,
   linkedin,
+  weather
 };

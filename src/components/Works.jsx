@@ -71,7 +71,6 @@ const ProjectCard = ({
   );
 };
 
-
 const Works = () => {
   return (
     <>
@@ -81,7 +80,7 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-      <motion.p
+        <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-xl max-w-3xl leading-[30px]"
         >

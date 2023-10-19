@@ -10,7 +10,8 @@ import {
   git,
   figma,
   hoobank,
-  gpt3
+  gpt3,
+  weather
 } from "../assets";
 
 export const navLinks = [
@@ -118,41 +119,55 @@ const testimonials = [
 
 const projects = [
   {
-    name: "GPT-3",
+    name: "GPT-3 Website",
     description:
-      "",
+      "The GPT3 website offers a comprehensive resource for understanding and engaging with OpenAI's GPT-3 technology.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: gpt3,
-    demo_link: "https://gpt3-web-xp58r.ondigitalocean.app/",
+    demo_link: "https://gpt3-arbrugova.netlify.app/",
     source_code_link: "https://github.com/arbrugova/gpt-3-website",
   },
   {
-    name: "Modern Bank Website",
+    name: "Hoobank",
     description:
-      "",
+      "HooBank's website provides an overview of its features, products, and clientele.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: hoobank,
     demo_link: "https://hoobank-arbrugova.netlify.app/",
     source_code_link: "https://github.com/arbrugova/modern-bank-website",
-  }
+  },
+  {
+    name: "Weather website",
+    description:
+      "Search cities and get real-time weather updates instantly on our website.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: weather,
+    demo_link: "https://weather-app-arbrugova.netlify.app/",
+    source_code_link: "https://github.com/arbrugova/weather-app",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
